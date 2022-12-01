@@ -26,7 +26,7 @@
   </section>
 <mat-divider></mat-divider>
 
-<app-transaction-list *ngIf="loadList"></app-transaction-list>
+<app-transaction-list [token]="value" *ngIf="loadList"></app-transaction-list>
 
 
 

@@ -12,9 +12,6 @@ export class TopBarComponent {
   loadList = false;
 
   constructor(private outlayService: OutlayService) {
-    if(this.value.length == 44){
-      this.outlayService.getToken({value: this.value});
-    }
   }
 
   openMonobankApi(){

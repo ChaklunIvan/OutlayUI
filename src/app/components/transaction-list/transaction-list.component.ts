@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import {OutlayService} from "../../services/outlay-service";
 import {Transactions} from "../../interfaces/transactions";
 
@@ -10,12 +10,9 @@ import {Transactions} from "../../interfaces/transactions";
 export class TransactionListComponent implements OnInit {
 
   transactions: Transactions[] = [];
-  token = '';
+  @Input() token = '';
 
   constructor(private outlayService: OutlayService) {
-    this.outlayService.getToken$.subscribe((token) => {
-      this.token = token;
-    })
   }
 
   ngOnInit(): void {
