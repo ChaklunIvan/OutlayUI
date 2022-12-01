@@ -1,0 +1,17 @@
+section {
+  display: table;
+  margin: auto;
+  padding: 10px;
+}
+
+.basic-button {
+  display: table-cell;
+  padding-inline: 10px;
+}
+
+.clearable-field {
+  width: 350px;
+  margin: 10px;
+  height: 86px;
+}
+

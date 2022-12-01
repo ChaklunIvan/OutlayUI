@@ -1,0 +1,7 @@
+<mat-list>
+  <mat-list-item role="listitem" *ngFor="let transaction of transactions">
+    <div matListItemTitle>{{transaction.name}}</div>
+    <div matListItemLine>{{transaction.amount}}</div>
+    <div matListItemLine>{{transaction.category}}</div>
+  </mat-list-item>
+</mat-list>
