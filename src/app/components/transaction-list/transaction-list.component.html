@@ -1,7 +1,14 @@
-<mat-list>
-  <mat-list-item role="listitem" *ngFor="let transaction of transactions">
-    <div matListItemTitle>{{transaction.name}}</div>
-    <div matListItemLine>{{transaction.amount}}</div>
-    <div matListItemLine>{{transaction.category}}</div>
-  </mat-list-item>
-</mat-list>
+<div class="w-full flex items-center flex-col divide-y">
+  <div *ngFor="let transaction of transactions" class="flex flex-row justify-between flex-1 w-96 p-4">
+    <div class="flex flex-row">
+      <img class="h-12 rounded-full mr-4"
+           [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/credit-card.svg'"
+           alt="">
+      <div class="flex flex-col">
+        <span class="text-xl font-base">{{transaction.name}}</span>
+        <span class="text-md font-secondary">{{transaction.category}}</span>
+      </div>
+    </div>
+    <span class="text-2xl text-red-600 pt-2">{{transaction.amount}}</span>
+  </div>
+</div>

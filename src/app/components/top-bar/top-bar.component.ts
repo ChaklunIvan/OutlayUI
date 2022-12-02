@@ -9,7 +9,7 @@ import {OutlayService} from "../../services/outlay-service";
 
 export class TopBarComponent {
   value = '';
-  loadList = false;
+  loadList = true;
 
   constructor(private outlayService: OutlayService) {
   }
