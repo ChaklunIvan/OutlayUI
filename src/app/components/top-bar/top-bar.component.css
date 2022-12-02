@@ -1,7 +1,7 @@
 section {
   display: table;
-  margin: auto;
   padding: 10px;
+  margin: auto;
 }
 
 .basic-button {
@@ -10,8 +10,9 @@ section {
 }
 
 .clearable-field {
-  width: 350px;
-  margin: 10px;
-  height: 86px;
+  width: 410px;
 }
 
+.headerIcon{
+  padding-right: 50px;
+}
