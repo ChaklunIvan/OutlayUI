@@ -5,7 +5,8 @@
            [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/credit-card.svg'"
            alt="">
       <div class="flex flex-col">
-        <span class="text-xl font-base">{{transaction.name}}</span>
+        <span routerLink="/stats" [state]="transaction" class="text-xl font-base">{{transaction.name}}</span>
+<!--        <span [routerLink]="['/stats', transaction.name]" class="text-xl font-base">{{transaction.name}}</span>-->
         <span class="text-md font-secondary">{{transaction.category}}</span>
       </div>
     </div>

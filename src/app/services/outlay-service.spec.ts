@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { OutlayServiceService } from './outlay-service';
+import { OutlayService } from './outlay-service';
 
 describe('OutlayServiceService', () => {
-  let service: OutlayServiceService;
+  let service: OutlayService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(OutlayServiceService);
+    service = TestBed.inject(OutlayService);
   });
 
   it('should be created', () => {
