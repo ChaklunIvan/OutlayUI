@@ -32,7 +32,12 @@
 </section>
 <mat-divider></mat-divider>
 
-<app-transaction-list [token]="value" *ngIf="loadList"></app-transaction-list>
+<div class="flex flex-col">
+  <div class="mr-10">
+    <app-credit-card></app-credit-card>
+  </div>
+  <app-transaction-list [token]="value" *ngIf="loadList"></app-transaction-list>
+</div>
 
 
 

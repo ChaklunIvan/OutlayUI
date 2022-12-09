@@ -18,7 +18,7 @@ import {MatListModule} from '@angular/material/list';
 import {AppRoutingModule} from './app-routing.module';
 import {StatsByDescriptionComponent} from "./components/stats-by-description/stats-by-description.component";
 import {StoreModule} from "@ngrx/store";
-
+import {CreditCardComponent} from "./components/credit-card/credit-card.component";
 
 @NgModule({
   declarations: [
@@ -26,6 +26,7 @@ import {StoreModule} from "@ngrx/store";
     HomeComponent,
     TransactionListComponent,
     StatsByDescriptionComponent,
+    CreditCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +35,6 @@ import {StoreModule} from "@ngrx/store";
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-
     MatButtonModule,
     MatToolbarModule,
     MatInputModule,

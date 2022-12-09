@@ -20,7 +20,7 @@ export class TransactionListComponent implements OnInit {
   }
 
   getTransactions(): void {
-    this.outlayService.getTransactionsGrouped(this.token)
+    this.outlayService.getTransactionsGrouped()
       .subscribe(transactions => this.transactions = transactions);
   }
 }
