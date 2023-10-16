@@ -8,7 +8,6 @@ import {HttpClientModule} from '@angular/common/http';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './components/home/home.component';
 import {TransactionListComponent} from './components/transaction-list/transaction-list.component';
-
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatInputModule} from '@angular/material/input';
@@ -19,6 +18,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {StatsByDescriptionComponent} from "./components/stats-by-description/stats-by-description.component";
 import {StoreModule} from "@ngrx/store";
 import {CreditCardComponent} from "./components/credit-card/credit-card.component";
+import { WeeklyComponent } from './components/weekly/weekly.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +27,7 @@ import {CreditCardComponent} from "./components/credit-card/credit-card.componen
     TransactionListComponent,
     StatsByDescriptionComponent,
     CreditCardComponent,
+    WeeklyComponent,
   ],
   imports: [
     BrowserModule,
