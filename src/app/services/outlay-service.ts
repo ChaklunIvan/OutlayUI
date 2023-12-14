@@ -47,6 +47,18 @@ export class OutlayService {
     return this.http.get<TransactionsRaw[]>(outlayUrl, {params: queryParams});
   }
 
+  fetchLatestTransactions() {
+    console.log(1);
+    let clientId = 'ff1772ba-24fa-42e7-96c9-0637f74196c7';
+    let externalCardId = 'XzNHt-dLmlqphOajbo0saA';
+    let outlayUrl = 'https://localhost:7016/api/transactions/latest';
+
+    let queryParams = new HttpParams();
+    queryParams = queryParams.append("clientId",clientId);
+    queryParams = queryParams.append("externalCardId", externalCardId);
+    return this.http.get(outlayUrl, {params: queryParams});
+  }
+
   getWeeklyTransactions() {
     let cardId = '1a1bb91d-d8b8-4647-9cee-26b4e8e1aaca';
     let outlayUrl = 'https://localhost:7016/api/transactions/weekly';

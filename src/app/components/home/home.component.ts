@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {OutlayService} from "../../services/outlay-service";
 
 @Component({
@@ -7,11 +7,19 @@ import {OutlayService} from "../../services/outlay-service";
   styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent {
+export class HomeComponent implements OnInit{
   value = '';
   loadList = true;
 
   constructor(private outlayService: OutlayService) {
+  }
+
+  ngOnInit(): void {
+    this.fetchLatestTransactions();
+  }
+
+  fetchLatestTransactions(): void {
+    this.outlayService.fetchLatestTransactions().subscribe(x=>console.log(x));
   }
 
   openMonobankApi(){

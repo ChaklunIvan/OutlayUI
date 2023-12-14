@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {OutlayService} from "../../services/outlay-service";
 import {TransactionsRaw} from "../../interfaces/transactionsRaw";
 
@@ -7,7 +7,7 @@ import {TransactionsRaw} from "../../interfaces/transactionsRaw";
   templateUrl: './transaction-viewer.component.html',
   styleUrls: ['./transaction-viewer.component.css']
 })
-export class TransactionViewerComponent {
+export class TransactionViewerComponent implements OnInit {
 
   transactions: TransactionsRaw[] = []; // Use a proper type instead of 'any'
 

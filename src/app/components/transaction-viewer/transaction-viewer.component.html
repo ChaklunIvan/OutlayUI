@@ -23,7 +23,7 @@
       <div class="flex justify-center items-center p-4">
         <div class="flex flex-row items-center flex-grow">
           <img class="h-12 rounded-full mr-4"
-               [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/credit-card.svg'"
+               [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/' + transaction.category + '.png'"
                alt="">
           <div class="flex flex-col">
             <span routerLink="/stats" [state]="transaction" class="text-xl font-base">{{transaction.description}}</span>
