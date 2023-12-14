@@ -23,4 +23,15 @@ export class TransactionListComponent implements OnInit {
     this.outlayService.getTransactionsGrouped()
       .subscribe(transactions => this.transactions = transactions);
   }
+
+  getSortedIncomeTransactions() {
+    return this.transactions
+      .filter(transaction => transaction.amount != null && transaction.amount > 0)
+      .sort((a, b) => {
+        // Ensure both a.amount and b.amount are defined
+        const amountA = a.amount ?? 0;
+        const amountB = b.amount ?? 0;
+        return amountB - amountA;
+      });
+  }
 }

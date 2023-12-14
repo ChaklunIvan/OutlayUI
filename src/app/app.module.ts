@@ -19,6 +19,8 @@ import {StatsByDescriptionComponent} from "./components/stats-by-description/sta
 import {StoreModule} from "@ngrx/store";
 import {CreditCardComponent} from "./components/credit-card/credit-card.component";
 import { WeeklyComponent } from './components/weekly/weekly.component';
+import { NgChartsModule } from 'ng2-charts';
+import { TransactionViewerComponent} from "./components/transaction-viewer/transaction-viewer.component";
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { WeeklyComponent } from './components/weekly/weekly.component';
     StatsByDescriptionComponent,
     CreditCardComponent,
     WeeklyComponent,
+    TransactionViewerComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +46,7 @@ import { WeeklyComponent } from './components/weekly/weekly.component';
     MatGridListModule,
     MatListModule,
     AppRoutingModule,
+    NgChartsModule,
     StoreModule.forRoot({},{})
   ],
   providers: [],

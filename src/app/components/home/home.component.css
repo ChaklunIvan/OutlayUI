@@ -1,14 +1,18 @@
-section {
-  display: table;
-  padding: 10px;
-  margin: auto;
+.token-section {
+  display: flex;
+  flex-direction: row; /* Align elements in a row */
+  align-items: center; /* Align items vertically in the center */
+  gap: 10px; /* Spacing between elements */
 }
 
-.basic-button {
-  display: table-cell;
-  padding-inline: 10px;
+.token-input, .get-token-button {
+  flex: 1; /* Allow both elements to take equal space */
 }
 
-.clearable-field {
-  width: 410px;
+.load-transaction-button {
+  margin-top: 20px;
+}
+
+.transactions-container {
+  margin-top: 20px;
 }

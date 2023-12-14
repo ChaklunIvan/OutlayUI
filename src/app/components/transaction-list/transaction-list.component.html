@@ -1,15 +1,44 @@
-<div class="w-full flex items-center flex-col divide-y">
-  <div *ngFor="let transaction of transactions" class="flex flex-row justify-between flex-1 w-96 p-4">
-    <div class="flex flex-row">
-      <img class="h-12 rounded-full mr-4"
-           [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/credit-card.svg'"
-           alt="">
-      <div class="flex flex-col">
-        <span routerLink="/stats" [state]="transaction" class="text-xl font-base">{{transaction.name}}</span>
-<!--        <span [routerLink]="['/stats', transaction.name]" class="text-xl font-base">{{transaction.name}}</span>-->
-        <span class="text-md font-secondary">{{transaction.category}}</span>
-      </div>
+<div class="w-full flex justify-center">
+  <!-- Expenses Column -->
+  <div class="flex flex-col w-1/4 mr-20">
+    <h2 class="text-center font-bold mb-4">Expenses</h2>
+    <div class="divide-y">
+      <ng-container *ngFor="let transaction of transactions">
+        <div class="flex justify-start items-center p-4" *ngIf="transaction.amount != null && transaction.amount <= 0">
+          <div class="flex flex-row items-center flex-grow">
+            <img class="h-12 rounded-full mr-4"
+                 [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/' + transaction.category + '.png'"
+                 alt="">
+            <div class="flex flex-col">
+              <span routerLink="/stats" [state]="transaction" class="text-xl font-base">{{transaction.name}}</span>
+              <span class="text-md font-secondary">{{transaction.category}}</span>
+            </div>
+          </div>
+          <span class="text-2xl text-red-600 ml-4">{{transaction.amount | number:'1.2-2'}}</span>
+        </div>
+      </ng-container>
     </div>
-    <span class="text-2xl text-red-600 pt-2">{{transaction.amount}}</span>
   </div>
+
+  <!-- Income Column -->
+  <div class="flex flex-col w-1/4">
+    <h2 class="text-center font-bold mb-4">Income</h2>
+    <div class="divide-y">
+      <ng-container *ngFor="let transaction of getSortedIncomeTransactions()">
+        <div class="flex justify-start items-center p-4">
+          <div class="flex flex-row items-center flex-grow">
+            <img class="h-12 rounded-full mr-4"
+                 [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/' + transaction.category + '.png'"
+                 alt="">
+            <div class="flex flex-col">
+              <span routerLink="/stats" [state]="transaction" class="text-xl font-base">{{transaction.name}}</span>
+              <span class="text-md font-secondary">{{transaction.category}}</span>
+            </div>
+          </div>
+          <span class="text-2xl text-green-600 ml-4">{{transaction.amount | number:'1.2-2'}}</span>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+
 </div>
