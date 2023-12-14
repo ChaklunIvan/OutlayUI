@@ -1,18 +1,56 @@
-import {Component, OnInit, Input} from '@angular/core';
+import {Component, OnInit, Input, ViewEncapsulation,  ViewChild, ElementRef } from '@angular/core';
 import {OutlayService} from "../../services/outlay-service";
 import {Transactions} from "../../interfaces/transactions";
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-transaction-list',
   templateUrl: './transaction-list.component.html',
-  styleUrls: ['./transaction-list.component.css']
+  styleUrls: ['./transaction-list.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class TransactionListComponent implements OnInit {
+  @ViewChild('dateRangeModal') modalRef!: ElementRef;
+  dateRange: {dateFrom: Date, dateTo: Date};
+  dateRangeDisplay = '1 month';
 
   transactions: Transactions[] = [];
   @Input() token = '';
 
   constructor(private outlayService: OutlayService) {
+    const currentDate = new Date();
+    const oneMonthAgo = new Date(currentDate);
+
+    oneMonthAgo.setMonth(currentDate.getMonth() - 1);
+
+    this.dateRange = {
+      dateFrom: oneMonthAgo,
+      dateTo: currentDate
+    };
+  }
+  submitDateRange() {
+    this.updateDateRangeDisplay();
+    this.getTransactions();
+  }
+
+  updateDateRangeDisplay() {
+    const { dateFrom, dateTo } = this.dateRange;
+    if (dateFrom && dateTo) {
+      const diffTime = Math.abs(dateTo.getTime() - dateFrom.getTime());
+      const diffDays = diffTime / (1000 * 3600 * 24);
+      const diffMonths = diffDays / 30;
+      const diffYears = diffDays / 365;
+
+      if (diffDays <= 30) {
+        this.dateRangeDisplay = `${Math.round(diffDays)} day${Math.round(diffDays) === 1 ? '' : 's'}`;
+      } else if (diffMonths <= 12) {
+        this.dateRangeDisplay = `${Math.round(diffMonths)} month${Math.round(diffMonths) === 1 ? '' : 's'}`;
+      } else {
+        this.dateRangeDisplay = `${Math.round(diffYears)} year${Math.round(diffYears) === 1 ? '' : 's'}`;
+      }
+    } else {
+      this.dateRangeDisplay = '';
+    }
   }
 
   ngOnInit(): void {
@@ -20,7 +58,7 @@ export class TransactionListComponent implements OnInit {
   }
 
   getTransactions(): void {
-    this.outlayService.getTransactionsGrouped()
+    this.outlayService.getTransactionsGrouped(this.dateRange.dateFrom, this.dateRange.dateTo)
       .subscribe(transactions => this.transactions = transactions);
   }
 

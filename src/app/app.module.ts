@@ -21,6 +21,11 @@ import {CreditCardComponent} from "./components/credit-card/credit-card.componen
 import { WeeklyComponent } from './components/weekly/weekly.component';
 import { NgChartsModule } from 'ng2-charts';
 import { TransactionViewerComponent} from "./components/transaction-viewer/transaction-viewer.component";
+import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatNativeDateModule } from '@angular/material/core';
+
 
 @NgModule({
   declarations: [
@@ -36,6 +41,9 @@ import { TransactionViewerComponent} from "./components/transaction-viewer/trans
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatNativeDateModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
@@ -47,6 +55,7 @@ import { TransactionViewerComponent} from "./components/transaction-viewer/trans
     MatListModule,
     AppRoutingModule,
     NgChartsModule,
+    NgbDatepickerModule,
     StoreModule.forRoot({},{})
   ],
   providers: [],

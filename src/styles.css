@@ -2,5 +2,6 @@
 @import 'tailwindcss/base';           /*@tailwind base;*/
 @import 'tailwindcss/components';     /*@tailwind components;*/
 @import 'tailwindcss/utilities';      /*@tailwind utilities;*/
+@import '@fortawesome/fontawesome-free/css/all.css';
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -5,6 +5,7 @@ import {ClientInfo} from "../interfaces/clientInfo";
 import {WeeklyTransaction} from "../interfaces/weeklyTransaction";
 import {WeeklyTransactionInfo} from "../interfaces/WeeklyTransactionInfo";
 import {TransactionsRaw} from "../interfaces/transactionsRaw";
+import { formatDate } from '@angular/common';
 
 @Injectable({
   providedIn: 'root'
@@ -29,13 +30,41 @@ export class OutlayService {
     return this.http.get<StatsByDescription[]>(outlayUrl, {params:queryParams});
   }
 
-  getTransactionsGrouped() {
+  // getTransactionsGrouped() {
+  //   let cardId = '1a1bb91d-d8b8-4647-9cee-26b4e8e1aaca';
+  //   let outlayUrl = 'https://localhost:7016/api/transactions/grouped';
+  //
+  //   let queryParams = new HttpParams();
+  //   queryParams = queryParams.append("clientCardId",cardId);
+  //   return this.http.get<StatsByDescription[]>(outlayUrl, {params: queryParams});
+  // }
+
+  getTransactionsGrouped(dateFrom: Date | null, dateTo: Date | null) {
     let cardId = '1a1bb91d-d8b8-4647-9cee-26b4e8e1aaca';
     let outlayUrl = 'https://localhost:7016/api/transactions/grouped';
 
     let queryParams = new HttpParams();
-    queryParams = queryParams.append("clientCardId",cardId);
-    return this.http.get<StatsByDescription[]>(outlayUrl, {params: queryParams});
+    queryParams = queryParams.append("clientCardId", cardId);
+
+    // If dateFrom is null, set it to one month before the current date
+    if (!dateFrom) {
+      dateFrom = new Date();
+      dateFrom.setMonth(dateFrom.getMonth() - 1);
+    }
+
+    // If dateTo is null, set it to the current date
+    if (!dateTo) {
+      dateTo = new Date();
+    }
+
+    // Format dates to strings
+    const formattedDateFrom = formatDate(dateFrom, 'yyyy-MM-dd', 'en-US');
+    const formattedDateTo = formatDate(dateTo, 'yyyy-MM-dd', 'en-US');
+
+    queryParams = queryParams.append("dateFrom", formattedDateFrom);
+    queryParams = queryParams.append("dateTo", formattedDateTo);
+
+    return this.http.get<StatsByDescription[]>(outlayUrl, { params: queryParams });
   }
 
   getTransactionsRaw() {
