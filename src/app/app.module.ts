@@ -18,18 +18,20 @@ import {AppRoutingModule} from './app-routing.module';
 import {StatsByDescriptionComponent} from "./components/stats-by-description/stats-by-description.component";
 import {StoreModule} from "@ngrx/store";
 import {CreditCardComponent} from "./components/credit-card/credit-card.component";
-import { WeeklyComponent } from './components/weekly/weekly.component';
-import { NgChartsModule } from 'ng2-charts';
-import { TransactionViewerComponent} from "./components/transaction-viewer/transaction-viewer.component";
-import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
-import { MatDatepickerModule } from '@angular/material/datepicker';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatNativeDateModule } from '@angular/material/core';
-
+import {SettingsComponent} from "./components/settings/settings.component";
+import {WeeklyComponent} from './components/weekly/weekly.component';
+import {NgChartsModule} from 'ng2-charts';
+import {TransactionViewerComponent} from "./components/transaction-viewer/transaction-viewer.component";
+import {NgbDatepickerModule} from '@ng-bootstrap/ng-bootstrap';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatNativeDateModule} from '@angular/material/core';
+import {cardReducer} from "./store/reducers/card.reducer";
 
 @NgModule({
   declarations: [
     AppComponent,
+    SettingsComponent,
     HomeComponent,
     TransactionListComponent,
     StatsByDescriptionComponent,
@@ -56,7 +58,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     AppRoutingModule,
     NgChartsModule,
     NgbDatepickerModule,
-    StoreModule.forRoot({},{})
+    StoreModule.forRoot({card: cardReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]

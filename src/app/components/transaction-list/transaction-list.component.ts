@@ -1,6 +1,9 @@
 import {Component, OnInit, Input, ViewEncapsulation,  ViewChild, ElementRef } from '@angular/core';
 import {OutlayService} from "../../services/outlay-service";
 import {Transactions} from "../../interfaces/transactions";
+import {Store} from '@ngrx/store';
+import {AppState} from "../../store/state/AppState";
+import {selectCardId} from "../../store/selectors/card.selector";
 import * as $ from 'jquery';
 
 @Component({
@@ -13,11 +16,12 @@ export class TransactionListComponent implements OnInit {
   @ViewChild('dateRangeModal') modalRef!: ElementRef;
   dateRange: {dateFrom: Date, dateTo: Date};
   dateRangeDisplay = '1 month';
-
+  cardId$ = this.store.select(selectCardId);
+  cardId: string;
   transactions: Transactions[] = [];
   @Input() token = '';
 
-  constructor(private outlayService: OutlayService) {
+  constructor(private outlayService: OutlayService, private store: Store<AppState>) {
     const currentDate = new Date();
     const oneMonthAgo = new Date(currentDate);
 
@@ -54,10 +58,14 @@ export class TransactionListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.cardId$.subscribe((id) => {
+      this.cardId = id;
+    });
     this.getTransactions();
   }
 
   getTransactions(): void {
+    console.log(this.cardId);
     this.outlayService.getTransactionsGrouped(this.dateRange.dateFrom, this.dateRange.dateTo)
       .subscribe(transactions => this.transactions = transactions);
   }
