@@ -23,7 +23,7 @@ export class StatsByDescriptionComponent implements OnInit {
       .pipe(map(() => window.history.state)).subscribe(transaction=>{
       this.icon = transaction.icon;
       this.category = transaction.category;
-        this.outlayService.getStatsByDescription(transaction.name).subscribe(c => {
+        this.outlayService.getStatsByDescription('1a1bb91d-d8b8-4647-9cee-26b4e8e1aaca', transaction.name).subscribe(c => {
           this.statistics = c;
         })
     })

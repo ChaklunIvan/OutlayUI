@@ -7,7 +7,7 @@ import {OutlayService} from "../../services/outlay-service";
   styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent implements OnInit{
+export class HomeComponent implements OnInit {
   value = '';
   loadList = true;
 
@@ -19,18 +19,18 @@ export class HomeComponent implements OnInit{
   }
 
   fetchLatestTransactions(): void {
-    this.outlayService.fetchLatestTransactions().subscribe(x=>console.log(x));
+    this.outlayService.fetchLatestTransactions().subscribe(x => console.log());
   }
 
-  openMonobankApi(){
+  openMonobankApi() {
     window.open("https://api.monobank.ua/")
   }
 
-  isDisabled(){
+  isDisabled() {
     return this.value.length != 44;
   }
 
-  loadTransactionList(){
+  loadTransactionList() {
     this.loadList = true;
   }
 }

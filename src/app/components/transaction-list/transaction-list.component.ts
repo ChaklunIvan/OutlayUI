@@ -1,10 +1,10 @@
-import {Component, OnInit, Input, ViewEncapsulation,  ViewChild, ElementRef } from '@angular/core';
+import {Component, OnInit, Input, ViewEncapsulation, ViewChild, ElementRef} from '@angular/core';
 import {OutlayService} from "../../services/outlay-service";
 import {Transactions} from "../../interfaces/transactions";
 import {Store} from '@ngrx/store';
 import {AppState} from "../../store/state/AppState";
 import {selectCardId} from "../../store/selectors/card.selector";
-import * as $ from 'jquery';
+import {Observable} from "rxjs";
 
 @Component({
   selector: 'app-transaction-list',
@@ -14,9 +14,9 @@ import * as $ from 'jquery';
 })
 export class TransactionListComponent implements OnInit {
   @ViewChild('dateRangeModal') modalRef!: ElementRef;
-  dateRange: {dateFrom: Date, dateTo: Date};
+  dateRange: { dateFrom: Date, dateTo: Date };
   dateRangeDisplay = '1 month';
-  cardId$ = this.store.select(selectCardId);
+  cardId$: Observable<string>;
   cardId: string;
   transactions: Transactions[] = [];
   @Input() token = '';
@@ -32,13 +32,14 @@ export class TransactionListComponent implements OnInit {
       dateTo: currentDate
     };
   }
+
   submitDateRange() {
     this.updateDateRangeDisplay();
     this.getTransactions();
   }
 
   updateDateRangeDisplay() {
-    const { dateFrom, dateTo } = this.dateRange;
+    const {dateFrom, dateTo} = this.dateRange;
     if (dateFrom && dateTo) {
       const diffTime = Math.abs(dateTo.getTime() - dateFrom.getTime());
       const diffDays = diffTime / (1000 * 3600 * 24);
@@ -58,15 +59,15 @@ export class TransactionListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.cardId$ = this.store.select(selectCardId);
     this.cardId$.subscribe((id) => {
       this.cardId = id;
+      this.getTransactions();
     });
-    this.getTransactions();
   }
 
   getTransactions(): void {
-    console.log(this.cardId);
-    this.outlayService.getTransactionsGrouped(this.dateRange.dateFrom, this.dateRange.dateTo)
+    this.outlayService.getTransactionsGrouped(this.cardId, this.dateRange.dateFrom, this.dateRange.dateTo)
       .subscribe(transactions => this.transactions = transactions);
   }
 
@@ -79,5 +80,21 @@ export class TransactionListComponent implements OnInit {
         const amountB = b.amount ?? 0;
         return amountB - amountA;
       });
+  }
+
+  setDefaultImage(event: any) {
+    event.target.src = 'assets/Common.png';
+  }
+
+  getTotalIncome(): number {
+    return this.transactions
+      .filter(transaction => transaction.amount !== undefined && transaction.amount > 0)
+      .reduce((acc, transaction) => acc + (transaction.amount || 0), 0);
+  }
+
+  getTotalExpenses(): number {
+    return this.transactions
+      .filter(transaction => transaction.amount !== undefined && transaction.amount < 0)
+      .reduce((acc, transaction) => acc + Math.abs(transaction.amount || 0), 0);
   }
 }

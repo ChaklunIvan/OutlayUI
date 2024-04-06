@@ -2,9 +2,7 @@
   <i class="fa-solid fa-clock" data-bs-toggle="modal" data-bs-target="#dateRangeModal"></i>
   <div id="dateRangeDisplay">({{ dateRangeDisplay }})</div>
 </div>
-<div>
-  Card ID: {{ cardId }}
-</div>
+
 
 <div class="w-full flex justify-center">
   <!-- YourComponent.html -->
@@ -47,13 +45,18 @@
 
   <!-- Expenses Column -->
   <div class="flex flex-col w-1/4 mr-20">
-    <h2 class="text-center font-bold mb-4">Expenses</h2>
+<!--    <h2 class="text-center font-bold mb-4">Expenses</h2>-->
+    <div class="text-center">
+      <h2 class="text-center font-bold mb-4" >Expenses</h2>
+      <h2 class="text-center font-bold mb-4 text-red-600">{{ getTotalExpenses() | number:'1.2-2' }} UAH</h2>
+    </div>
     <div class="divide-y">
       <ng-container *ngFor="let transaction of transactions">
         <div class="flex justify-start items-center p-4" *ngIf="transaction.amount != null && transaction.amount <= 0">
           <div class="flex flex-row items-center flex-grow">
             <img class="h-12 rounded-full mr-4"
-                 [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/' + transaction.category + '.png'"
+                 [src]="transaction.icon ? transaction.icon : 'assets/' + transaction.category + '.png'"
+                 (error)="setDefaultImage($event)"
                  alt="">
             <div class="flex flex-col">
               <span routerLink="/stats" [state]="transaction" class="text-xl font-base">{{transaction.name}}</span>
@@ -68,13 +71,18 @@
 
   <!-- Income Column -->
   <div class="flex flex-col w-1/4">
-    <h2 class="text-center font-bold mb-4">Income</h2>
+<!--    <h2 class="text-center font-bold mb-4">Income</h2>-->
+    <div class="text-center">
+      <h2 class="text-center font-bold mb-4">Income</h2>
+      <h2 class="text-center font-bold mb-4 text-green-600">{{ getTotalIncome() | number:'1.2-2' }} UAH</h2>
+    </div>
     <div class="divide-y">
       <ng-container *ngFor="let transaction of getSortedIncomeTransactions()">
         <div class="flex justify-start items-center p-4">
           <div class="flex flex-row items-center flex-grow">
             <img class="h-12 rounded-full mr-4"
-                 [src]="transaction.icon != '' && transaction.category != 'Переказ коштів' ? transaction.icon : 'assets/' + transaction.category + '.png'"
+                 [src]="transaction.icon ? transaction.icon : 'assets/' + transaction.category + '.png'"
+                 (error)="setDefaultImage($event)"
                  alt="">
             <div class="flex flex-col">
               <span routerLink="/stats" [state]="transaction" class="text-xl font-base">{{transaction.name}}</span>

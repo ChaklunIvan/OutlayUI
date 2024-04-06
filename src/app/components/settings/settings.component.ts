@@ -3,6 +3,7 @@ import {Store} from '@ngrx/store';
 import {AppState} from "../../store/state/AppState";
 import {selectCardId} from "../../store/selectors/card.selector";
 import {setCardId} from "../../store/actions/card.actions";
+import {OutlayService} from "../../services/outlay-service";
 
 @Component({
   selector: 'app-settings',
@@ -11,17 +12,19 @@ import {setCardId} from "../../store/actions/card.actions";
 })
 export class SettingsComponent {
   cardId$ = this.store.select(selectCardId);
-  apiUrl: string = '';
-  constructor(private store: Store<AppState>) {
+  clientToken: string = '';
+
+  constructor(private store: Store<AppState>, private outlayService: OutlayService) {
   }
 
   submitSettings() {
-    this.updateCardId(this.apiUrl);
+    this.registerUser(this.clientToken);
     console.log(this.cardId$);
   }
 
-  updateCardId(newId: string) {
-    console.log(newId);
-    this.store.dispatch(setCardId({ id: newId }));
+  registerUser(token: string) {
+    console.log(token);
+    // this.store.dispatch(setCardId({id: token}));
+    this.outlayService.registerUser(token).subscribe((x) => this.store.dispatch(setCardId({id: x.toString()})));
   }
 }

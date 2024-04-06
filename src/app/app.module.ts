@@ -4,7 +4,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {RouterModule} from '@angular/router';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
-
+import {metaReducers} from "./localStorage/local-storage-meta-reducer";
+import { loadState} from "./localStorage/local-storage";
 import {AppComponent} from './app.component';
 import {HomeComponent} from './components/home/home.component';
 import {TransactionListComponent} from './components/transaction-list/transaction-list.component';
@@ -58,7 +59,10 @@ import {cardReducer} from "./store/reducers/card.reducer";
     AppRoutingModule,
     NgChartsModule,
     NgbDatepickerModule,
-    StoreModule.forRoot({card: cardReducer})
+    StoreModule.forRoot({card: cardReducer}, {
+      metaReducers,
+      initialState: loadState()
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,6 +22,10 @@ export class TransactionViewerComponent implements OnInit {
     this.outlayService.getTransactionsRaw()
       .subscribe(transactions => this.transactions = transactions);
   }
+
+  setDefaultImage(event: any) {
+    event.target.src = 'assets/Common.png';
+  }
 }
 
 
