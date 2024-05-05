@@ -89,14 +89,12 @@ export class OutlayService implements OnInit {
     return this.http.get<TransactionsRaw[]>(outlayUrl, {params: queryParams});
   }
 
-  fetchLatestTransactions() {
-    let clientId = 'ff1772ba-24fa-42e7-96c9-0637f74196c7';
-    let externalCardId = 'XzNHt-dLmlqphOajbo0saA';
+  fetchLatestTransactions(cardId: string) {
     let outlayUrl = 'https://localhost:7016/api/transactions/latest';
 
     let queryParams = new HttpParams();
-    queryParams = queryParams.append("clientId", clientId);
-    queryParams = queryParams.append("externalCardId", externalCardId);
+    queryParams = queryParams.append("cardId", cardId);
+
     return this.http.get(outlayUrl, {params: queryParams});
   }
 
