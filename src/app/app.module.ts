@@ -28,6 +28,8 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatNativeDateModule} from '@angular/material/core';
 import {cardReducer} from "./store/reducers/card.reducer";
+import { tokenReducer } from './store/reducers/token-reducer';
+import { ChooseCardsComponent } from './components/choose-cards/choose-cards.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,7 @@ import {cardReducer} from "./store/reducers/card.reducer";
     CreditCardComponent,
     WeeklyComponent,
     TransactionViewerComponent,
+    ChooseCardsComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +62,7 @@ import {cardReducer} from "./store/reducers/card.reducer";
     AppRoutingModule,
     NgChartsModule,
     NgbDatepickerModule,
-    StoreModule.forRoot({card: cardReducer}, {
+    StoreModule.forRoot({ card: cardReducer, token: tokenReducer }, {
       metaReducers,
       initialState: loadState()
     })

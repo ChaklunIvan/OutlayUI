@@ -4,6 +4,7 @@ import {selectCardId} from "../../store/selectors/card.selector";
 import {Observable} from "rxjs";
 import {Store} from "@ngrx/store";
 import {AppState} from "../../store/state/AppState";
+import { setTokenId } from '../../store/actions/token.actions';
 
 @Component({
   selector: 'app-home',
@@ -28,6 +29,10 @@ export class HomeComponent implements OnInit {
       this.fetchLatestTransactions();
     });
   }
+  setToken(token: string) {
+    this.outlayService.registerUser(token);
+    this.store.dispatch(setTokenId({ id: token }));
+  }
 
   fetchLatestTransactions(): void {
     this.outlayService.fetchLatestTransactions(this.cardId).subscribe(x => console.log());
@@ -37,6 +42,7 @@ export class HomeComponent implements OnInit {
   openMonobankApi() {
     window.open("https://api.monobank.ua/")
   }
+  
 
   isDisabled() {
     return this.value.length != 44;

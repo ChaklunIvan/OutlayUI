@@ -5,13 +5,16 @@ import {StatsByDescriptionComponent} from "./components/stats-by-description/sta
 import {WeeklyComponent} from "./components/weekly/weekly.component";
 import {TransactionViewerComponent} from "./components/transaction-viewer/transaction-viewer.component";
 import {SettingsComponent} from "./components/settings/settings.component";
+import { ChooseCardsComponent } from './components/choose-cards/choose-cards.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'settings', component: SettingsComponent},
   {path: 'weekly', component: WeeklyComponent},
   {path: 'raw', component: TransactionViewerComponent},
-  {path: 'stats', component: StatsByDescriptionComponent},
+  { path: 'stats', component: StatsByDescriptionComponent },
+  { path: 'choose', component: ChooseCardsComponent },
+  { path: 'choose/:id', component: ChooseCardsComponent },
   {
     path : '', redirectTo: '/home',
     pathMatch: 'full'

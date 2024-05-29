@@ -1,19 +1,20 @@
 <section>
   <!-- Container for Token Input and Button -->
   <div class="token-section">
-<!--    <div class="token-input">-->
-<!--      <mat-form-field>-->
-<!--        <mat-label>Token input</mat-label>-->
-<!--        <input matInput type="text" [(ngModel)]="value">-->
-<!--        <button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">-->
-<!--          <mat-icon>close</mat-icon>-->
-<!--        </button>-->
-<!--      </mat-form-field>-->
-<!--    </div>-->
+   <div class="token-input">
+     <mat-form-field>
+       <mat-label>Token input</mat-label>
+       <input matInput type="text" [(ngModel)]="value">
+       <button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+         <mat-icon>close</mat-icon>
+         </button>
+       <button *ngIf="value" mat-raised-button (click)="setToken(value)">Save</button>
+     </mat-form-field>
+    </div>
 
-<!--    <div class="get-token-button">-->
-<!--      <button mat-raised-button (click)="openMonobankApi()">Get Token</button>-->
-<!--    </div>-->
+    <div class="get-token-button">
+      <button mat-raised-button (click)="openMonobankApi()">Get Token</button>
+    </div>
   </div>
 
   <!-- Load Transaction List Button -->

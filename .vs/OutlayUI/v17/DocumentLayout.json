@@ -1,0 +1,852 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\services\\outlay-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\outlay-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\settings\\settings.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\settings\\settings.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\services\\outlay-service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\outlay-service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\choose-cards\\choose-cards.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\choose-cards\\choose-cards.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\choose-cards\\choose-cards.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\choose-cards\\choose-cards.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\transaction-list\\transaction-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\transaction-list\\transaction-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\transaction-list\\transaction-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\transaction-list\\transaction-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\settings\\settings.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\settings\\settings.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\clientInfo.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\interfaces\\clientInfo.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\state\\AppState.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\store\\state\\AppState.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\selectors\\token.selector.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\store\\selectors\\token.selector.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\selectors\\card.selector.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\store\\selectors\\card.selector.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\localStorage\\local-storage-meta-reducer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\localStorage\\local-storage-meta-reducer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\localStorage\\local-storage.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\localStorage\\local-storage.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\store\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\reducers\\token-reducer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\store\\reducers\\token-reducer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\reducers\\card.reducer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\store\\reducers\\card.reducer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\credit-card\\credit-card.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\credit-card\\credit-card.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\credit-card\\credit-card.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\credit-card\\credit-card.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\weeklyTransaction.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\interfaces\\weeklyTransaction.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\transactionsRaw.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\interfaces\\transactionsRaw.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\stats-by-description.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\interfaces\\stats-by-description.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\home\\home.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tsconfig.spec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.spec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\weekly\\weekly.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\weekly\\weekly.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\weekly\\weekly.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\weekly\\weekly.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\transactions.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\interfaces\\transactions.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "choose-cards.component.html",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\choose-cards\\choose-cards.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\choose-cards\\choose-cards.component.html",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\choose-cards\\choose-cards.component.html",
+              "RelativeToolTip": "src\\app\\components\\choose-cards\\choose-cards.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-07T00:02:34.186Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "choose-cards.component.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\choose-cards\\choose-cards.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\choose-cards\\choose-cards.component.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\choose-cards\\choose-cards.component.ts",
+              "RelativeToolTip": "src\\app\\components\\choose-cards\\choose-cards.component.ts",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-07T00:03:56.105Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "outlay-service.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\services\\outlay-service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\outlay-service.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\services\\outlay-service.ts",
+              "RelativeToolTip": "src\\app\\services\\outlay-service.ts",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAQwHoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-20T11:23:31.819Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{f2bd8fb8-fc94-3dae-a733-fd993c73cc87}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "outlay-service.spec.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\services\\outlay-service.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\outlay-service.spec.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\services\\outlay-service.spec.ts",
+              "RelativeToolTip": "src\\app\\services\\outlay-service.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T06:30:46.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "settings.component.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\settings\\settings.component.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.ts",
+              "RelativeToolTip": "src\\app\\components\\settings\\settings.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T07:02:02.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "settings.component.css",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\settings\\settings.component.css",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.css",
+              "RelativeToolTip": "src\\app\\components\\settings\\settings.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T07:02:06.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.module.ts",
+              "RelativeToolTip": "src\\app\\app.module.ts",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-13T10:15:45.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "home.component.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\home\\home.component.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.ts",
+              "RelativeToolTip": "src\\app\\components\\home\\home.component.ts",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T07:39:13.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "home.component.html",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\home\\home.component.html",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.html",
+              "RelativeToolTip": "src\\app\\components\\home\\home.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T07:39:16.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "home.component.css",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\home\\home.component.css",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.css",
+              "RelativeToolTip": "src\\app\\components\\home\\home.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T07:39:18.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "transaction-list.component.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\transaction-list\\transaction-list.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\transaction-list\\transaction-list.component.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\transaction-list\\transaction-list.component.ts",
+              "RelativeToolTip": "src\\app\\components\\transaction-list\\transaction-list.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-24T08:35:28.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "transaction-list.component.html",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\transaction-list\\transaction-list.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\transaction-list\\transaction-list.component.html",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\transaction-list\\transaction-list.component.html",
+              "RelativeToolTip": "src\\app\\components\\transaction-list\\transaction-list.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-24T08:35:37.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "src\\app\\app-routing.module.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-04T10:33:38.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "settings.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\settings\\settings.component.spec.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.spec.ts",
+              "RelativeToolTip": "src\\app\\components\\settings\\settings.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T07:01:58.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "settings.component.html",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\settings\\settings.component.html",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\settings\\settings.component.html",
+              "RelativeToolTip": "src\\app\\components\\settings\\settings.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-10T09:26:18.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.component.css",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.css",
+              "RelativeDocumentMoniker": "src\\app\\app.component.css",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.css",
+              "RelativeToolTip": "src\\app\\app.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-06T22:52:12.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.html",
+              "RelativeToolTip": "src\\app\\app.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-06T22:51:45.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "app.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.component.spec.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.spec.ts",
+              "RelativeToolTip": "src\\app\\app.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-06T22:51:50.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.component.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\app.component.ts",
+              "RelativeToolTip": "src\\app\\app.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-06T22:51:59.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "card.selector.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\selectors\\card.selector.ts",
+              "RelativeDocumentMoniker": "src\\app\\store\\selectors\\card.selector.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\selectors\\card.selector.ts",
+              "RelativeToolTip": "src\\app\\store\\selectors\\card.selector.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-21T14:30:40.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "clientInfo.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\clientInfo.ts",
+              "RelativeDocumentMoniker": "src\\app\\interfaces\\clientInfo.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\clientInfo.ts",
+              "RelativeToolTip": "src\\app\\interfaces\\clientInfo.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-11T10:28:00.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "local-storage-meta-reducer.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\localStorage\\local-storage-meta-reducer.ts",
+              "RelativeDocumentMoniker": "src\\app\\localStorage\\local-storage-meta-reducer.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\localStorage\\local-storage-meta-reducer.ts",
+              "RelativeToolTip": "src\\app\\localStorage\\local-storage-meta-reducer.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T06:32:52.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "local-storage.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\localStorage\\local-storage.ts",
+              "RelativeDocumentMoniker": "src\\app\\localStorage\\local-storage.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\localStorage\\local-storage.ts",
+              "RelativeToolTip": "src\\app\\localStorage\\local-storage.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA6wAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T06:32:53.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\main.ts",
+              "RelativeDocumentMoniker": "src\\main.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\main.ts",
+              "RelativeToolTip": "src\\main.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-04T11:17:28.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppState.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\state\\AppState.ts",
+              "RelativeDocumentMoniker": "src\\app\\store\\state\\AppState.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\state\\AppState.ts",
+              "RelativeToolTip": "src\\app\\store\\state\\AppState.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-12T07:27:08.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "token.selector.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\selectors\\token.selector.ts",
+              "RelativeDocumentMoniker": "src\\app\\store\\selectors\\token.selector.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\selectors\\token.selector.ts",
+              "RelativeToolTip": "src\\app\\store\\selectors\\token.selector.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-21T14:30:37.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "index.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\index.ts",
+              "RelativeDocumentMoniker": "src\\app\\store\\index.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\index.ts",
+              "RelativeToolTip": "src\\app\\store\\index.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-12T07:27:10.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "card.reducer.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\reducers\\card.reducer.ts",
+              "RelativeDocumentMoniker": "src\\app\\store\\reducers\\card.reducer.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\reducers\\card.reducer.ts",
+              "RelativeToolTip": "src\\app\\store\\reducers\\card.reducer.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-12T07:26:35.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "token-reducer.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\reducers\\token-reducer.ts",
+              "RelativeDocumentMoniker": "src\\app\\store\\reducers\\token-reducer.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\store\\reducers\\token-reducer.ts",
+              "RelativeToolTip": "src\\app\\store\\reducers\\token-reducer.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-12T11:48:23.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "credit-card.component.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\credit-card\\credit-card.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\credit-card\\credit-card.component.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\credit-card\\credit-card.component.ts",
+              "RelativeToolTip": "src\\app\\components\\credit-card\\credit-card.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T07:41:23.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "credit-card.component.html",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\credit-card\\credit-card.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\credit-card\\credit-card.component.html",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\credit-card\\credit-card.component.html",
+              "RelativeToolTip": "src\\app\\components\\credit-card\\credit-card.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T07:41:21.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "weeklyTransaction.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\weeklyTransaction.ts",
+              "RelativeDocumentMoniker": "src\\app\\interfaces\\weeklyTransaction.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\weeklyTransaction.ts",
+              "RelativeToolTip": "src\\app\\interfaces\\weeklyTransaction.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-20T11:03:57.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "transactionsRaw.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\transactionsRaw.ts",
+              "RelativeDocumentMoniker": "src\\app\\interfaces\\transactionsRaw.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\transactionsRaw.ts",
+              "RelativeToolTip": "src\\app\\interfaces\\transactionsRaw.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-20T11:03:56.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "stats-by-description.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\stats-by-description.ts",
+              "RelativeDocumentMoniker": "src\\app\\interfaces\\stats-by-description.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\stats-by-description.ts",
+              "RelativeToolTip": "src\\app\\interfaces\\stats-by-description.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-20T11:03:55.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "home.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\home\\home.component.spec.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\home\\home.component.spec.ts",
+              "RelativeToolTip": "src\\app\\components\\home\\home.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T07:39:09.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\index.html",
+              "RelativeDocumentMoniker": "src\\index.html",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\index.html",
+              "RelativeToolTip": "src\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-06T22:50:40.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-06T22:50:15.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-06T22:50:15.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "tsconfig.spec.json",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tsconfig.spec.json",
+              "RelativeDocumentMoniker": "tsconfig.spec.json",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tsconfig.spec.json",
+              "RelativeToolTip": "tsconfig.spec.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T11:17:19.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "tsconfig.app.json",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tsconfig.app.json",
+              "RelativeDocumentMoniker": "tsconfig.app.json",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tsconfig.app.json",
+              "RelativeToolTip": "tsconfig.app.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T11:17:13.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tailwind.config.js",
+              "RelativeDocumentMoniker": "tailwind.config.js",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\tailwind.config.js",
+              "RelativeToolTip": "tailwind.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-04T11:17:10.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-05-04T11:17:43.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T10:33:49.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AQIAAL8BAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T11:16:58.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\angular.json",
+              "RelativeDocumentMoniker": "angular.json",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\angular.json",
+              "RelativeToolTip": "angular.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T11:16:59.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "weekly.component.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\weekly\\weekly.component.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.ts",
+              "RelativeToolTip": "src\\app\\components\\weekly\\weekly.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T06:33:13.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "weekly.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\weekly\\weekly.component.spec.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.spec.ts",
+              "RelativeToolTip": "src\\app\\components\\weekly\\weekly.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T06:33:11.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "weekly.component.html",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\weekly\\weekly.component.html",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.html",
+              "RelativeToolTip": "src\\app\\components\\weekly\\weekly.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T06:33:10.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "weekly.component.css",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\weekly\\weekly.component.css",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\components\\weekly\\weekly.component.css",
+              "RelativeToolTip": "src\\app\\components\\weekly\\weekly.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T06:33:09.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "transactions.ts",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\transactions.ts",
+              "RelativeDocumentMoniker": "src\\app\\interfaces\\transactions.ts",
+              "ToolTip": "C:\\Users\\\u041F\u0435\u0442\u0440\u0438\u043A\\source\\repos\\OutlayUI\\src\\app\\interfaces\\transactions.ts",
+              "RelativeToolTip": "src\\app\\interfaces\\transactions.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-05T06:30:35.558Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

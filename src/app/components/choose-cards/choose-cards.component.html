@@ -1,0 +1,32 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<body>
+  <h3>Обрати карту для виводу транзакцій </h3>
+  <p>Token:{{tokenID}}</p>
+  <div *ngFor="let card of cards">
+   <strong> <a [routerLink]="['/choose', card.id]">Обрати цю картку</a> </strong>
+    <div>
+      <strong>ID:</strong> {{ card.id }}
+    </div>
+    <div>
+      <strong>Balance:</strong> {{ card.balance }}
+    </div>
+    <div>
+      <strong>Type:</strong> {{ card.type }}
+    </div>
+    <div>
+      <strong>Masked Card Number:</strong> {{ card.maskedCardNumber }}
+    </div>
+    <hr>
+  </div>
+
+</body>
+</html>

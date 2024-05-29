@@ -4,6 +4,7 @@ import {AppState} from "../../store/state/AppState";
 import {selectCardId} from "../../store/selectors/card.selector";
 import {setCardId} from "../../store/actions/card.actions";
 import {OutlayService} from "../../services/outlay-service";
+import { setTokenId } from '../../store/actions/token.actions';
 
 @Component({
   selector: 'app-settings',
@@ -24,6 +25,7 @@ export class SettingsComponent {
 
   registerUser(token: string) {
     console.log(token);
-    this.outlayService.registerUser(token).subscribe((x) => this.store.dispatch(setCardId({id: x.toString()})));
+    this.store.dispatch(setTokenId({ id: token }));
+    //this.outlayService.registerUser(token);
   }
 }

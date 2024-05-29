@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+ import {Component} from '@angular/core';
 import {OutlayService} from "../../services/outlay-service";
 import {WeeklyTransaction} from "../../interfaces/weeklyTransaction";
 import {WeeklyTransactionInfo} from "../../interfaces/WeeklyTransactionInfo";

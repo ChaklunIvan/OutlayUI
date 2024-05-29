@@ -1,7 +1,7 @@
 import {Injectable, OnInit} from '@angular/core';
 import {HttpClient, HttpParams} from '@angular/common/http';
 import {StatsByDescription} from "../interfaces/stats-by-description";
-import {ClientInfo} from "../interfaces/clientInfo";
+import {CardInfo, ClientInfo} from "../interfaces/clientInfo";
 import {WeeklyTransaction} from "../interfaces/weeklyTransaction";
 import {WeeklyTransactionInfo} from "../interfaces/WeeklyTransactionInfo";
 import {TransactionsRaw} from "../interfaces/transactionsRaw";
@@ -27,7 +27,16 @@ export class OutlayService implements OnInit {
     //   this.cardId = id;
     // });
   }
-
+  setCardUser(IdCard: string) {
+    let outlayUrl = `https://localhost:7016/api/clients/setCard?idCard=${IdCard}`;
+    let queryParams = new HttpParams();
+    return this.http.post<CardInfo[]>(outlayUrl, { params: queryParams, responseType: 'json' });
+  }
+  getClientCards(clientToken: string) {
+    let outlayUrl = `https://localhost:7016/api/clients/cards?clientToken=${clientToken}`;
+    let queryParams = new HttpParams();
+    return this.http.post<CardInfo[]>(outlayUrl, { params: queryParams, responseType: 'json' });
+  }
   getClientInfo() {
     let outlayUrl = 'https://localhost:7016/api/clients/personal-info';
     return this.http.get<ClientInfo>(outlayUrl);
