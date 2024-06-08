@@ -26,7 +26,9 @@ import {TransactionViewerComponent} from "./components/transaction-viewer/transa
 import {NgbDatepickerModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
 import {MatNativeDateModule} from '@angular/material/core';
+import { MatMenuModule } from '@angular/material/menu';
 import {cardReducer} from "./store/reducers/card.reducer";
 import { tokenReducer } from './store/reducers/token-reducer';
 import { ChooseCardsComponent } from './components/choose-cards/choose-cards.component';
@@ -59,6 +61,8 @@ import { ChooseCardsComponent } from './components/choose-cards/choose-cards.com
     MatIconModule,
     MatGridListModule,
     MatListModule,
+    MatCardModule,
+    MatMenuModule,
     AppRoutingModule,
     NgChartsModule,
     NgbDatepickerModule,

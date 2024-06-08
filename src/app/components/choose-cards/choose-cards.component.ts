@@ -41,6 +41,15 @@ export class ChooseCardsComponent {
       this.cards = x;
     });
   }
+
+  convertToUAH(balance: number | undefined): string {
+    if (balance == null) {
+      return '';
+    }
+    const dollars = balance / 100;
+    return dollars.toLocaleString('en-EU', { style: 'currency', currency: 'UAH' });
+  }
+
   setCard(cardId: string): void {
     this.store.dispatch(setCardId({ id: cardId }));
   }

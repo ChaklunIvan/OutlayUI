@@ -18,7 +18,6 @@ export class HomeComponent implements OnInit {
   cardId$: Observable<string>;
   cardId: string;
 
-
   constructor(private outlayService: OutlayService, private store: Store<AppState>) {
   }
 
@@ -29,27 +28,8 @@ export class HomeComponent implements OnInit {
       this.fetchLatestTransactions();
     });
   }
-  setToken(token: string) {
-    this.outlayService.registerUser(token);
-    this.store.dispatch(setTokenId({ id: token }));
-  }
-
   fetchLatestTransactions(): void {
     this.outlayService.fetchLatestTransactions(this.cardId).subscribe(x => console.log());
-  }
-
-
-  openMonobankApi() {
-    window.open("https://api.monobank.ua/")
-  }
-  
-
-  isDisabled() {
-    return this.value.length != 44;
-  }
-
-  loadTransactionList() {
-    this.loadList = true;
   }
 }
 

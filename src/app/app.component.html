@@ -1,8 +1,16 @@
 <div class="w-full">
   <mat-toolbar>
     <div class="toolbar-content">
-      <mat-icon class="toolbar-icon">waves icon</mat-icon>
+      <mat-icon class="toolbar-icon clicable" [matMenuTriggerFor]="menu">waves</mat-icon>
       <span class="toolbar-text">OUTLAY</span>
+
+      <!-- Dropdown Menu -->
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item [routerLink]="'/home'">Home</button>
+        <button mat-menu-item [routerLink]="'/raw'">Raw</button>
+        <button mat-menu-item [routerLink]="'/choose'">Choose</button>
+        <button mat-menu-item [routerLink]="'/settings'">Settings</button>
+      </mat-menu>
     </div>
   </mat-toolbar>
   <router-outlet></router-outlet>
