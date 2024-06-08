@@ -46,8 +46,8 @@ export class ChooseCardsComponent {
     if (balance == null) {
       return '';
     }
-    const dollars = balance / 100;
-    return dollars.toLocaleString('en-EU', { style: 'currency', currency: 'UAH' });
+    const hryvnas = balance / 100;
+    return hryvnas.toLocaleString('en-EU', { style: 'currency', currency: 'UAH' });
   }
 
   setCard(cardId: string): void {
