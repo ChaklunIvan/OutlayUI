@@ -15,17 +15,14 @@ import {selectCardId} from "../store/selectors/card.selector";
   providedIn: 'root'
 })
 export class OutlayService implements OnInit {
-
+  
 
   constructor(private http: HttpClient) {
   }
 
   ngOnInit(): void {
-    // this.cardId$ = this.store.select(selectCardId);
-    // console.log(this.cardId$)
-    // this.cardId$.subscribe((id) => {
-    //   this.cardId = id;
-    // });
+     
+     
   }
   setCardUser(IdCard: string) {
     let outlayUrl = `https://localhost:7016/api/clients/setCard?idCard=${IdCard}`;
@@ -89,8 +86,7 @@ export class OutlayService implements OnInit {
     return this.http.get<StatsByDescription[]>(outlayUrl, {params: queryParams});
   }
 
-  getTransactionsRaw() {
-    let cardId = '1a1bb91d-d8b8-4647-9cee-26b4e8e1aaca';
+  getTransactionsRaw(cardId: string) {
     let outlayUrl = 'https://localhost:7016/api/transactions/by-period';
 
     let queryParams = new HttpParams();
@@ -107,8 +103,9 @@ export class OutlayService implements OnInit {
     return this.http.get(outlayUrl, {params: queryParams});
   }
 
-  getWeeklyTransactions() {
-    let cardId = '1a1bb91d-d8b8-4647-9cee-26b4e8e1aaca';
+  getWeeklyTransactions(cardId: string) {
+    
+  getWeeklyTransactions(cardId: string) {
     let outlayUrl = 'https://localhost:7016/api/transactions/weekly';
 
     let queryParams = new HttpParams();
