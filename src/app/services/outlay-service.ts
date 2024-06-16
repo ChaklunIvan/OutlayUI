@@ -15,17 +15,14 @@ import {selectCardId} from "../store/selectors/card.selector";
   providedIn: 'root'
 })
 export class OutlayService implements OnInit {
-
+  
 
   constructor(private http: HttpClient) {
   }
 
   ngOnInit(): void {
-    // this.cardId$ = this.store.select(selectCardId);
-    // console.log(this.cardId$)
-    // this.cardId$.subscribe((id) => {
-    //   this.cardId = id;
-    // });
+     
+     
   }
   setCardUser(IdCard: string) {
     let outlayUrl = `https://localhost:7016/api/clients/setCard?idCard=${IdCard}`;

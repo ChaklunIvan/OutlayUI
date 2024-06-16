@@ -26,6 +26,7 @@ export class SettingsComponent {
   registerUser(token: string) {
     console.log(token);
     this.store.dispatch(setTokenId({ id: token }));
-    //this.outlayService.registerUser(token);
+
+    this.outlayService.registerUser(token).subscribe(x => x);
   }
 }
