@@ -104,8 +104,6 @@ export class OutlayService implements OnInit {
   }
 
   getWeeklyTransactions(cardId: string) {
-    
-  getWeeklyTransactions(cardId: string) {
     let outlayUrl = 'https://localhost:7016/api/transactions/weekly';
 
     let queryParams = new HttpParams();

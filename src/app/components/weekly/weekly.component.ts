@@ -7,9 +7,6 @@ import {ChartOptions, ChartType, ChartDataset} from 'chart.js';
  import {Observable} from "rxjs";
  import {Store} from "@ngrx/store";
  import {AppState} from "../../store/state/AppState";
-import { Store } from '@ngrx/store';
-import { AppState } from '../../store/state/AppState';
-import { selectCardId } from '../../store/selectors/card.selector';
 
 type Label = string | string[];
 
