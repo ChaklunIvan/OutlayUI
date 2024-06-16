@@ -7,6 +7,7 @@
 
 .token-input, .get-token-button {
   flex: 1; /* Allow both elements to take equal space */
+  width:max-content;
 }
 
 .load-transaction-button {

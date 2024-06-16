@@ -16,3 +16,12 @@
   transform: scale(1.5); /* Scale up the text */
   padding-bottom: 1px; /* Keeps your original padding at the bottom */
 }
+
+.clicable {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.clicable:hover {
+  color: #007BFF; /* Change to your preferred color */
+}

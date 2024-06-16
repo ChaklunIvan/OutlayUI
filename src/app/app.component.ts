@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BackgroundTaskService } from './services/update-data-background-task.service';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'OutlayUI';
-
+  constructor(private background: BackgroundTaskService) {
+    
+  }
 }

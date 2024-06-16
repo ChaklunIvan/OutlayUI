@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Card Selection</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      padding: 16px;
+    }
+    .card {
+      width: 300px;
+    }
+    .card-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-balance {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+    .card-name {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+    .select-button {
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+<h3 style="text-align: center;">Обрати карту для виводу транзакцій</h3>
+<p style="text-align: center;">Token: {{tokenID}}</p>
+<div class="card-container">
+  <div *ngFor="let card of cards" class="card mat-elevation-z3">
+    <mat-card>
+      <mat-card-content class="card-content">
+        <div class="card-name">{{ card.type }} Card</div>
+        <span [ngClass]="{'text-red-600': card.balance != null && card.balance < 0, 'text-green-600': card.balance != null && card.balance >= 0}"
+              class="text-2xl ml-4">{{ convertToUAH(card.balance) }}</span>
+        <button mat-raised-button color="primary" class="select-button" [routerLink]="['/choose', card.id]">
+          Обрати цю картку
+        </button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+</body>
+</html>
