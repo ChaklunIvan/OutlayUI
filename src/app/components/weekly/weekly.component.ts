@@ -44,7 +44,7 @@ export class WeeklyComponent {
   }
 
   public setDefaultImage(event: Event): void {
-    (event.target as HTMLImageElement).src = 'assets/default-icon.png'; // Set a default image path
+    (event.target as HTMLImageElement).src = 'assets/Common.png'; // Set a default image path
   }
 
   getDayName(dayIndex: number): string {
